@@ -99,9 +99,9 @@ pub fn open_port(serial: Box<dyn Serial>, quiet: bool, file_to_send: &mut Option
 
 fn get_device_emoji(device_type: u8) -> char {
     match device_type {
-        1 => '🚕', // Loader
-        2 => '💫', // Starlight (Kernel)
-        3 => '🌟', // Starlight (User)
+        1 => '🚀', // Starship
+        2 => '🌟', // Starlight
+        3 => '💫', // Starlight Mini
         _ => '❓'
     }
 }
