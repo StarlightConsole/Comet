@@ -1,10 +1,13 @@
 [package]
 name = "starlight-comet"
-version = "1.0.1"
+version = "1.0.2"
 edition = "2021"
 description = "Comet is a debugging tool made for the Starlight Operating System"
 license = "Apache-2.0"
 keywords = ["starlight", "comet", "debugger", "os", "serial"]
+authors = ["yolocat-dev"]
+repository = "https://github.com/StarlightConsole/Comet"
+categories = ["command-line-utilities", "development-tools", "development-tools::debugging"]
 
 [dependencies]
 anstyle = "1.0.8"
