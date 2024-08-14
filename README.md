@@ -2,10 +2,10 @@
 
 > A debugging tool made for the Starlight Operating System
 
-![Crates.io Version](https://img.shields.io/crates/v/starlight-comet?style=for-the-badge)
-![Crates.io Downloads (recent)](https://img.shields.io/crates/dr/starlight-comet?style=for-the-badge)
-![Crates.io License](https://img.shields.io/crates/l/starlight-comet?style=for-the-badge)
-![Crates.io Size](https://img.shields.io/crates/size/starlight-comet?style=for-the-badge)
+![Crates.io Version](https://img.shields.io/crates/v/starlight-comet?style=for-the-badge&color=FF6801)
+![Crates.io Downloads (recent)](https://img.shields.io/crates/dr/starlight-comet?style=for-the-badge&color=FF6801)
+![Crates.io License](https://img.shields.io/crates/l/starlight-comet?style=for-the-badge&color=FF6801)
+![Crates.io Size](https://img.shields.io/crates/size/starlight-comet?style=for-the-badge&color=FF6801)
 
 ## Installation
 
