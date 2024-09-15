@@ -46,7 +46,7 @@ pub fn open_port(serial: Box<dyn Serial>, quiet: bool, file_to_send: &mut Option
                                 port.write_all(COMMAND_PREFIX.as_bytes()).expect("could not write command prefix");
                                 port.write_all(&[0x03]).expect("could not write command");
 
-                                let mut buf = vec![0; 1];
+                                let mut buf = vec![];
 
                                 let size = file.read_to_end(&mut buf).expect("file could not be read") as u32;
                                 port.write_all(&size.to_le_bytes()).expect("could not write file size");
