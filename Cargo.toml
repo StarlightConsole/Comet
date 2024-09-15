@@ -1,6 +1,6 @@
 [package]
 name = "starlight-comet"
-version = "1.0.2"
+version = "1.0.3"
 edition = "2021"
 description = "Comet is a debugging tool made for the Starlight Operating System"
 license = "Apache-2.0"
